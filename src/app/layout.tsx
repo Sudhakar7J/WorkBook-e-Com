@@ -3,6 +3,7 @@ import "./globals.css"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import TopNav from "@/components/navbarComponents/AppNav"
+import AppNav from "@/components/navbarComponents/AppNav"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -20,6 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
+          <AppNav />
           {children}
         </ThemeProvider>
       </body>

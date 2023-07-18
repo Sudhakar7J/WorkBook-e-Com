@@ -17,16 +17,18 @@ const TopNav = () => {
   }
 
   return (
-    <nav className="flex flex-row items-center justify-between flex-wrap bg-gray-900 p-6 px-10 w-screen">
+    <nav className="flex flex-row items-center justify-between flex-wrap bg-gray-900 p-6 px-10 w-full">
       {/* Logo */}
       <div className="flex items-center flex-shrink-0 text-white mr-6">
-        <Image
-          src={worksheet}
-          alt="app logo"
-          width={40}
-          height={40}
-          className="max-h-20 object-cover"
-        />
+        <Link href={"/"}>
+          <Image
+            src={worksheet}
+            alt="app logo"
+            width={40}
+            height={40}
+            className="max-h-20 object-cover"
+          />
+        </Link>
       </div>
 
       {/* Hamburger Menu */}
