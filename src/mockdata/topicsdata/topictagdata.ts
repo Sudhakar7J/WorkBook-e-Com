@@ -51,12 +51,10 @@ export const tagdata = [
   },
 ]
 
-export const topiccontent = [
-  {
-    id: 1,
-    topicMainContent:
-      "Free Printable English Worksheets for Preschool and Kindergarten",
-    topicDescription:
-      "Are your looking for free printable English Worksheets for Preschool/Kindergarten? Not sure what your child should start learning in his/her initial years? Your search ends here!! We have hundreds of free English worksheets for preschool and kindergarten children. Check our worksheets for alphabet recognition and formation, letter tracing, things that start with an alphabet, learning to read and write first words and many more.",
-  },
-]
+export const topiccontent = {
+  id: 1,
+  topicMainContent:
+    "Free Printable English Worksheets for Preschool and Kindergarten",
+  topicDescription:
+    "Are your looking for free printable English Worksheets for Preschool/Kindergarten? Not sure what your child should start learning in his/her initial years? Your search ends here!! We have hundreds of free English worksheets for preschool and kindergarten children. Check our worksheets for alphabet recognition and formation, letter tracing, things that start with an alphabet, learning to read and write first words and many more.",
+}

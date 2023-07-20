@@ -1,6 +1,6 @@
-import lowercase_a from "@/assets/images/cardImages/lower-a.png"
-import lowercase_b from "@/assets/images/cardImages/lower-b.png"
-import lowercase_c from "@/assets/images/cardImages/lower-c.png"
+import lowercase_a from "../../../public/assets/images/cardImages/lower-a.png"
+import lowercase_b from "../../../public/assets/images/cardImages/lower-b.png"
+import lowercase_c from "../../../public/assets/images/cardImages/lower-c.png"
 
 export const worksheetcard = [
   {
