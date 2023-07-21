@@ -2,11 +2,11 @@
 module.exports = {
   darkMode: ["class"],
   content: [
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
-    './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',
-	],
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./app/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}",
+  ],
   theme: {
     container: {
       center: true,
@@ -50,6 +50,12 @@ module.exports = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        socialMediaIconFacebook: "#306199",
+        socialMediaIcontwitter: "#26C4F1",
+        socialMediaIconPinterest: "#B81621",
+        socialMediaIconInstagram: "#B81621",
+        socialMediaIconReddit: "#8BBBE3",
+        socialMediaIconWhatsapp: "#43D854",
       },
       borderRadius: {
         lg: "var(--radius)",

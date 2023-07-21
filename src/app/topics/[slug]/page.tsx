@@ -3,11 +3,22 @@ import WorkSheetCard from "@/components/topicsComponents/WorkSheetCard"
 import { topiccontent } from "@/mockdata/topicsdata/topictagdata"
 import { worksheetcard } from "@/mockdata/topicsdata/worksheetcarddata"
 import TopicTagsContainer from "@/components/topicsComponents/TopicTagsContainer"
+import SocialShare from "@/components/topicsComponents/SocialShare"
+import Breadcrumbs from "./../../../components/topicsComponents/Breadcrumbs"
 
 export default function TopicsBar() {
   return (
     <main>
+      {/* Topic Tags Section  */}
       <TopicTagsContainer />
+      {/* Breadcrumbs Section  */}
+      <section>
+        <Breadcrumbs />
+      </section>
+      {/* Social Media Share Section  */}
+      <section>
+        <SocialShare />
+      </section>
       {/* Topic Content Section  */}
       <section>
         <div className="margin-auto">
